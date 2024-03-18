@@ -16,7 +16,7 @@
       ),
       url(/images/tours-hero.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -177,6 +177,107 @@
 
       button {
         @include learn-more();
+      }
+    }
+  }
+}
+
+@media all and (max-width: 817px) {
+  .tours {
+    .tours-hero {
+      p {
+      }
+    }
+
+    .tours-container {
+      justify-content: center;
+      .box-1 {
+        h1 {
+          p {
+            button {
+            }
+            .box-2 {
+              h1 {
+              }
+
+              p {
+              }
+
+              button {
+              }
+            }
+            .box-3 {
+              h1 {
+              }
+
+              p {
+              }
+
+              button {
+              }
+            }
+            .box-4 {
+              h1 {
+              }
+
+              p {
+              }
+
+              button {
+              }
+            }
+            .box-5 {
+              h1 {
+              }
+
+              p {
+              }
+
+              button {
+              }
+            }
+            .box-6 {
+              h1 {
+              }
+
+              p {
+              }
+
+              button {
+              }
+            }
+            .box-7 {
+              h1 {
+              }
+
+              p {
+              }
+
+              button {
+              }
+            }
+            .box-8 {
+              h1 {
+              }
+
+              p {
+              }
+
+              button {
+              }
+            }
+            .box-9 {
+              h1 {
+              }
+
+              p {
+              }
+
+              button {
+              }
+            }
+          }
+        }
       }
     }
   }

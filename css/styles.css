@@ -606,7 +606,7 @@ nav .links .last-link {
   background-color: antiquewhite;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/tours-hero.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -1018,6 +1018,11 @@ nav .links .last-link {
   color: #ffffff;
 }
 
+@media all and (max-width: 817px) {
+  .tours .tours-container {
+    justify-content: center;
+  }
+}
 footer {
   width: 100%;
   height: 100px;
