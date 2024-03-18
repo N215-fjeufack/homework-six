@@ -598,7 +598,6 @@ nav .links .last-link {
   max-width: 980px;
   margin: 0 auto;
   min-height: 200px;
-  background-color: aqua;
   margin-top: 49.5px;
 }
 .tours .tours-hero {
@@ -623,9 +622,13 @@ nav .links .last-link {
 .tours .tours-container {
   min-height: 200px;
   max-width: 818px;
-  background-color: red;
   margin: 0 auto;
   margin-top: 48px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 55px;
 }
 .tours .tours-container .box-1 {
   height: 304px;
@@ -647,6 +650,8 @@ nav .links .last-link {
   color: #ffffff;
   font-weight: normal;
   line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
 }
 .tours .tours-container .box-1 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -658,6 +663,350 @@ nav .links .last-link {
   padding-bottom: 30px;
 }
 .tours .tours-container .box-1 button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tours .tours-container .box-2 {
+  height: 304px;
+  width: 236px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/usa.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .tours-container .box-2 h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+.tours .tours-container .box-2 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.tours .tours-container .box-2 button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tours .tours-container .box-3 {
+  height: 304px;
+  width: 236px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/australia.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .tours-container .box-3 h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+.tours .tours-container .box-3 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.tours .tours-container .box-3 button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tours .tours-container .box-4 {
+  height: 304px;
+  width: 236px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/new-zealand.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .tours-container .box-4 h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+.tours .tours-container .box-4 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.tours .tours-container .box-4 button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tours .tours-container .box-5 {
+  height: 304px;
+  width: 236px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/france.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .tours-container .box-5 h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+.tours .tours-container .box-5 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.tours .tours-container .box-5 button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tours .tours-container .box-6 {
+  height: 304px;
+  width: 236px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/egypt.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .tours-container .box-6 h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+.tours .tours-container .box-6 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.tours .tours-container .box-6 button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tours .tours-container .box-7 {
+  height: 304px;
+  width: 236px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/japan.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .tours-container .box-7 h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+.tours .tours-container .box-7 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.tours .tours-container .box-7 button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tours .tours-container .box-8 {
+  height: 304px;
+  width: 236px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/canada.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .tours-container .box-8 h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+.tours .tours-container .box-8 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.tours .tours-container .box-8 button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tours .tours-container .box-9 {
+  height: 304px;
+  width: 236px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/u.a.e.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tours .tours-container .box-9 h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+.tours .tours-container .box-9 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.tours .tours-container .box-9 button {
   height: 40px;
   width: 133px;
   border-radius: 20px;

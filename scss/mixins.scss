@@ -11,3 +11,36 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@mixin h1-card-style() {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: $site-white;
+  font-weight: normal;
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-style: italic;
+}
+
+@mixin p-card-style() {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: $site-white;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+@mixin learn-more() {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: $site-blue;
+  border: 1px solid $site-blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: $site-white;
+}
