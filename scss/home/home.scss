@@ -1,0 +1,456 @@
+.home {
+  margin-top: -92.5px;
+  .hero {
+    height: 500px;
+    // background-color: aquamarine;
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+
+    h1 {
+      text-transform: uppercase;
+      font-family: Proxima Nova ScOsf Extra Condensed;
+      font-size: 60px;
+      color: $site-white;
+      font-weight: normal;
+    }
+    .p-box {
+      width: 416px;
+      // background-color: aqua;
+      text-align: center;
+      padding-bottom: 30px;
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 20px;
+        color: $site-white;
+        font-weight: normal;
+        font-style: italic;
+      }
+    }
+
+    button {
+      height: 40.04px;
+      width: 121.62px;
+      background-color: $site-blue;
+      border: 1px solid $site-blue;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: $site-white;
+    }
+  }
+
+  .specials {
+    max-width: $home-content-width;
+    // margin: 0 auto;
+    /* The CSS property `margin: -50px auto 0 auto;` in the `.specials` class is setting the margins
+    for the element. */
+    margin: -50px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .box-1 {
+      height: 304px;
+      width: 236px;
+      background-color: blueviolet;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/israel.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h1 {
+        text-transform: uppercase;
+        font-family: Proxima Nova ScOsf Extra Condensed;
+        font-size: 60px;
+        color: $site-white;
+        font-weight: normal;
+        line-height: 50px;
+      }
+
+      p {
+        font-family: Proxima Nova ScOsf Extra Condensed;
+        font-size: 30px;
+        color: $site-white;
+        font-weight: normal;
+        font-style: italic;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+      }
+
+      button {
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        background-color: $site-blue;
+        border: 1px solid $site-blue;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: $site-white;
+      }
+    }
+    .box-2 {
+      height: 304px;
+      width: 236px;
+      background-color: blueviolet;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/usa.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h1 {
+        text-transform: uppercase;
+        font-family: Proxima Nova ScOsf Extra Condensed;
+        font-size: 60px;
+        color: $site-white;
+        font-weight: normal;
+        line-height: 50px;
+      }
+
+      p {
+        font-family: Proxima Nova ScOsf Extra Condensed;
+        font-size: 30px;
+        color: $site-white;
+        font-weight: normal;
+        font-style: italic;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+      }
+
+      button {
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        background-color: $site-blue;
+        border: 1px solid $site-blue;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: $site-white;
+      }
+    }
+    .box-3 {
+      height: 304px;
+      width: 236px;
+      background-color: blueviolet;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/australia.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h1 {
+        text-transform: uppercase;
+        font-family: Proxima Nova ScOsf Extra Condensed;
+        font-size: 60px;
+        color: $site-white;
+        font-weight: normal;
+        line-height: 50px;
+      }
+
+      p {
+        font-family: Proxima Nova ScOsf Extra Condensed;
+        font-size: 30px;
+        color: $site-white;
+        font-weight: normal;
+        font-style: italic;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+      }
+
+      button {
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        background-color: $site-blue;
+        border: 1px solid $site-blue;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: $site-white;
+      }
+    }
+  }
+  .booking-form {
+    height: 73px;
+    // background-color: cadetblue;
+    max-width: $home-content-width;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 28px;
+    font-size: 60px;
+    font-family: Proxima Nova ScOsf Extra Condensed;
+    color: $site-black;
+    display: flex;
+  }
+  .form {
+    max-width: $home-content-width;
+    margin: 0 auto;
+    min-height: 500px;
+    // background-color: antiquewhite;
+
+    .personal-info {
+      max-width: $home-content-width;
+      // background-color: aquamarine;
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+      padding-top: 20px;
+
+      .box-1 {
+        width: 344px;
+        height: 58px;
+        padding-bottom: 20px;
+
+        // background-color: blue;
+      }
+
+      .box-2 {
+        width: 453px;
+        height: 58px;
+        padding-bottom: 20px;
+        // background-color: blue;
+      }
+    }
+
+    .cal {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // position: relative;
+      // background-color: aqua;
+      padding-bottom: 20px;
+
+      label {
+        // padding-right: 60px;
+        width: 200px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+      }
+
+      // .cal-box {
+      //   background-color: blue;
+      //   width: 30px;
+      //   height: 30px;
+      //   position: absolute;
+      //   right: 20px;
+      //   bottom: 14px;
+      // }
+    }
+
+    .numbers-holder {
+      width: 100%;
+      margin: 0 auto;
+      // min-height: 200px;
+      display: flex;
+      // background-color: brown;
+      justify-content: space-between;
+
+      .box {
+        width: 223.7px;
+        height: 58px;
+        // background-color: chartreuse;
+        display: flex;
+        align-items: center;
+
+        label {
+          // padding-right: 60px;
+          width: 120.7px;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-size: 18px;
+          font-weight: lighter;
+          justify-content: space-between;
+        }
+        span {
+          width: 103px;
+          height: 58px;
+          // background-color: blue;
+        }
+      }
+    }
+
+    .message-box {
+      width: 100%;
+      height: 192px;
+      // background-color: cornflowerblue;
+      margin-top: 20px;
+
+      .message-input {
+        height: 192px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    input {
+      height: 58px;
+      width: 100%;
+      border: 2px solid;
+      border-color: $site-blue;
+      padding-left: 20.5px;
+      padding-right: 20.5px;
+      font-size: 18px;
+      color: $site-black;
+      // background-color: red;
+      font-size: 18px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: lighter;
+    }
+
+    .submit {
+      margin: 0 auto;
+      button {
+        width: 100%;
+        height: 60.59px;
+
+        border: 2px solid;
+        border-color: $site-blue;
+        background-color: $site-blue;
+        color: $site-white;
+        ont-size: 18px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: lighter;
+        text-transform: uppercase;
+        border-radius: 30px;
+        margin-top: 37px;
+        margin-bottom: 100.4px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 920px) {
+  .home {
+    .hero {
+      h1 {
+      }
+      .p-box {
+        p {
+        }
+      }
+
+      button {
+      }
+    }
+
+    .specials {
+      flex-direction: column;
+      .box-1 {
+        margin-bottom: 50px;
+        h1 {
+        }
+
+        p {
+        }
+
+        button {
+        }
+      }
+      .box-2 {
+        margin-bottom: 50px;
+        h1 {
+        }
+
+        p {
+        }
+
+        button {
+        }
+      }
+      .box-3 {
+        margin-bottom: 50px;
+        h1 {
+        }
+
+        p {
+        }
+
+        button {
+        }
+      }
+    }
+    .booking-form {
+      justify-content: center;
+    }
+    .form {
+      .personal-info {
+        flex-direction: column;
+        align-items: center;
+
+        .box-1 {
+          width: 453px;
+        }
+
+        .box-2 {
+        }
+      }
+
+      .cal {
+        width: 80%;
+        label {
+          width: 120.7px;
+        }
+      }
+
+      .numbers-holder {
+        width: 80%;
+        flex-direction: column;
+        .box {
+          margin-bottom: 20px;
+          label {
+            width: 100px;
+          }
+          span {
+          }
+        }
+      }
+
+      .message-box {
+        width: 80%;
+        margin: 0 auto;
+        .message-input {
+        }
+      }
+
+      input {
+      }
+
+      .submit {
+        width: 80%;
+      }
+    }
+  }
+}

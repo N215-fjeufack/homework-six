@@ -1,0 +1,136 @@
+.about {
+  min-height: 500px;
+  max-width: $content-width;
+  // background-color: coral;
+  margin: 0 auto;
+  padding-top: 100.5px;
+  padding-bottom: 179px;
+
+  .main-title-box {
+    width: 171px;
+    height: 73px;
+    // background-color: aqua;
+    border-bottom: 2px solid black;
+    .main-title {
+      font-weight: 100;
+      font-size: 60px;
+      letter-spacing: 4px;
+    }
+  }
+
+  .paragraph {
+    padding-top: 36.5px;
+    font-size: 16px;
+  }
+  .sub-title-box {
+    width: 255px;
+    height: 49px;
+    // background-color: aqua;
+    border-bottom: 2px solid black;
+    text-wrap: nowrap;
+    .sub-title {
+      margin-top: 101px;
+      font-weight: 100;
+      font-size: 40px;
+      letter-spacing: 3px;
+    }
+  }
+
+  .client-box {
+    max-width: 712px;
+    height: 150px;
+    // background-color: blue;
+    margin-top: 36.5px;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+
+    .image-box {
+      height: 150px;
+      width: 260px;
+      // background-color: aqua;
+    }
+
+    .text-box {
+      height: 150px;
+      max-width: 427px;
+      // background-color: blueviolet;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .client-paragraph {
+        max-width: 385px;
+        height: 102px;
+        font-style: italic;
+        font-size: 16px;
+        // background-color: red;
+      }
+
+      .name {
+        max-width: 166px;
+        height: 24px;
+        // background-color: aqua;
+        align-self: self-end;
+        font-size: 20px;
+        font-weight: 100;
+        color: $site-blue;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .about {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    .main-title-box {
+      .main-title {
+      }
+    }
+
+    .paragraph {
+    }
+    .sub-title-box {
+    }
+  }
+
+  .client-box {
+    .image-box {
+    }
+
+    .text-box {
+    }
+
+    .name {
+    }
+  }
+}
+
+@media all and (max-width: 815px) {
+  .about {
+    .main-title-box {
+      .main-title {
+      }
+    }
+
+    .paragraph {
+    }
+    .sub-title-box {
+    }
+  }
+
+  .client-box {
+    flex-direction: column;
+    padding-bottom: 250px;
+    .image-box {
+      margin-bottom: 10px;
+    }
+
+    .text-box {
+    }
+
+    .name {
+    }
+  }
+}

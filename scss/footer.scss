@@ -1,0 +1,88 @@
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: $site-blue;
+  display: flex;
+  align-items: center;
+
+  .footer-content {
+    width: $content-width;
+    height: 100%;
+    margin: 0 auto;
+    // background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      width: 92px;
+      height: 42px;
+      //   background-color: aqua;
+      border: 2px solid $site-white;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 20px;
+      font-weight: normal;
+      color: $site-white;
+      display: flex;
+      align-items: flex-end;
+
+      span {
+        margin-bottom: -5px;
+        margin-left: -2px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .copyright {
+      max-width: 216px;
+      //   background-color: aqua;
+      display: flex;
+      align-items: center;
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        color: $site-white;
+      }
+    }
+
+    .links {
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      //   background-color: aqua;
+
+      i {
+        color: $site-white;
+        font-size: 22.46px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 920px) {
+  footer {
+    .footer-content {
+      justify-content: space-around;
+
+      .logo {
+        span {
+        }
+      }
+
+      .copyright {
+        p {
+        }
+      }
+
+      .links {
+        i {
+        }
+      }
+    }
+  }
+}
