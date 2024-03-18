@@ -1,7 +1,7 @@
 .tours {
-  width: $content-width;
+  max-width: $content-width;
   margin: 0 auto;
-  min-height: 300px;
+  min-height: 200px;
   background-color: aqua;
   margin-top: 49.5px;
 
@@ -29,6 +29,52 @@
       font-weight: 300;
       color: white;
       letter-spacing: 3px;
+    }
+  }
+
+  .tours-container {
+    min-height: 200px;
+    max-width: $home-content-width;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 48px;
+
+    .box-1 {
+      @include card_style(url(/images/israel.png));
+
+      h1 {
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 40px;
+        color: $site-white;
+        font-weight: normal;
+        line-height: 50px;
+      }
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 30px;
+        color: $site-white;
+        font-weight: normal;
+        font-style: italic;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+      }
+
+      button {
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        background-color: $site-blue;
+        border: 1px solid $site-blue;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: $site-white;
+      }
     }
   }
 }
