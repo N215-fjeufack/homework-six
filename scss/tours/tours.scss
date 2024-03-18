@@ -1,6 +1,34 @@
 .tours {
   width: $content-width;
   margin: 0 auto;
-  min-height: 200px;
+  min-height: 300px;
   background-color: aqua;
+  margin-top: 49.5px;
+
+  .tours-hero {
+    height: 200px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: linear-gradient(
+        to right,
+        rgb(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(/images/tours-hero.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-size: 60px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 300;
+      color: white;
+      letter-spacing: 3px;
+    }
+  }
 }
