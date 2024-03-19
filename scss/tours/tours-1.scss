@@ -1,8 +1,9 @@
 .tours-1-container {
   max-width: $content-width;
   min-height: 200px;
-  background-color: aqua;
+  //   background-color: aqua;
   margin: 0 auto;
+  margin-top: 48.5px;
 
   .tours-1-hero {
     max-width: 100%;
@@ -42,7 +43,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 376px;
-    margin-right: 30px;
+    margin-right: 20px;
 
     p {
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -50,6 +51,49 @@
       text-transform: uppercase;
       font-size: 20px;
       color: $site-white;
+    }
+  }
+
+  .extra-images {
+    max-width: 100%;
+    min-height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-title-box {
+    width: 165px;
+    height: 73px;
+    // background-color: red;
+    border-bottom: 2px solid black;
+    .main-title {
+      font-weight: 100;
+      font-size: 60px;
+      letter-spacing: 4px;
+      text-wrap: nowrap;
+    }
+  }
+
+  .paragraph {
+    padding-top: 36.5px;
+    font-size: 16px;
+    padding-bottom: 80px;
+    text-align: justify;
+  }
+  .sub-title-box {
+    width: 255px;
+    height: 49px;
+    // background-color: aqua;
+    border-bottom: 2px solid black;
+    text-wrap: nowrap;
+
+    .sub-title {
+      margin-top: 101px;
+      font-weight: 100;
+      font-size: 40px;
+      letter-spacing: 3px;
     }
   }
 }
