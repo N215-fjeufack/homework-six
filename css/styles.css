@@ -1045,6 +1045,94 @@ nav .links .last-link {
   display: flex;
   justify-content: space-between;
 }
+.tours-1-container .tours-2-hero {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: url(/images/tours-2-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.tours-1-container .tours-3-hero {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: url(/images/tours-3-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.tours-1-container .tours-4-hero {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: url(/images/tours-4-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.tours-1-container .tours-5-hero {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: url(/images/tours-5-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.tours-1-container .tours-6-hero {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: url(/images/tours-6-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.tours-1-container .tours-7-hero {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: url(/images/tours-7-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.tours-1-container .tours-8-hero {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: url(/images/tours-8-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.tours-1-container .tours-9-hero {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: url(/images/tours-9-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
 .tours-1-container .text-box-1 {
   height: 98px;
   min-width: 490px;
@@ -1062,12 +1150,13 @@ nav .links .last-link {
 }
 .tours-1-container .text-box-2 {
   height: 37px;
-  min-width: 359px;
+  min-width: 362px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 376px;
   margin-right: 20px;
+  text-wrap: nowrap;
 }
 .tours-1-container .text-box-2 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;

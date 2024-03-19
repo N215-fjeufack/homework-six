@@ -6,15 +6,31 @@
   margin-top: 48.5px;
 
   .tours-1-hero {
-    max-width: 100%;
-    height: 413px;
-    background-color: red;
-    background-image: url(/images/tours-1-hero.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
+    @include tours-hero(url(/images/tours-1-hero.png));
+  }
+  .tours-2-hero {
+    @include tours-hero(url(/images/tours-2-hero.png));
+  }
+  .tours-3-hero {
+    @include tours-hero(url(/images/tours-3-hero.png));
+  }
+  .tours-4-hero {
+    @include tours-hero(url(/images/tours-4-hero.png));
+  }
+  .tours-5-hero {
+    @include tours-hero(url(/images/tours-5-hero.png));
+  }
+  .tours-6-hero {
+    @include tours-hero(url(/images/tours-6-hero.png));
+  }
+  .tours-7-hero {
+    @include tours-hero(url(/images/tours-7-hero.png));
+  }
+  .tours-8-hero {
+    @include tours-hero(url(/images/tours-8-hero.png));
+  }
+  .tours-9-hero {
+    @include tours-hero(url(/images/tours-9-hero.png));
   }
 
   .text-box-1 {
@@ -37,13 +53,14 @@
   }
   .text-box-2 {
     height: 37px;
-    min-width: 359px;
+    min-width: 362px;
     // background-color: rgb(64, 25, 80);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 376px;
     margin-right: 20px;
+    text-wrap: nowrap;
 
     p {
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",

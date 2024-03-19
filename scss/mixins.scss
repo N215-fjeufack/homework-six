@@ -61,3 +61,15 @@ a {
   text-decoration: none;
   color: $site-white;
 }
+
+@mixin tours-hero($image) {
+  max-width: 100%;
+  height: 413px;
+  background-color: red;
+  background-image: $image;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
