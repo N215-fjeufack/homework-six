@@ -609,7 +609,7 @@ nav .links .last-link {
   height: 200px;
   width: 100%;
   background-color: antiquewhite;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/tours-hero.png);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tours-hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -643,7 +643,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/israel.png);
+  background-image: url(../images/israel.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -686,7 +686,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/usa.png);
+  background-image: url(../images/usa.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -729,7 +729,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/australia.png);
+  background-image: url(../images/australia.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -772,7 +772,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/new-zealand.png);
+  background-image: url(../images/new-zealand.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -815,7 +815,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/france.png);
+  background-image: url(../images/france.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -858,7 +858,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/egypt.png);
+  background-image: url(../images/egypt.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -901,7 +901,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/japan.png);
+  background-image: url(../images/japan.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -944,7 +944,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/canada.png);
+  background-image: url(../images/canada.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -987,7 +987,7 @@ nav .links .last-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/u.a.e.png);
+  background-image: url(../images/u.a.e.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1038,7 +1038,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-1-hero.png);
+  background-image: url(../images/tours-1-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1049,7 +1049,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-2-hero.png);
+  background-image: url(../images/tours-2-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1060,7 +1060,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-3-hero.png);
+  background-image: url(../images/tours-3-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1071,7 +1071,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-4-hero.png);
+  background-image: url(../images/tours-4-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1082,7 +1082,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-5-hero.png);
+  background-image: url(../images/tours-5-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1093,7 +1093,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-6-hero.png);
+  background-image: url(../images/tours-6-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1104,7 +1104,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-7-hero.png);
+  background-image: url(../images/tours-7-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1115,7 +1115,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-8-hero.png);
+  background-image: url(../images/tours-8-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1126,7 +1126,7 @@ nav .links .last-link {
   max-width: 100%;
   height: 413px;
   background-color: red;
-  background-image: url(/images/tours-9-hero.png);
+  background-image: url(../images/tours-9-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
