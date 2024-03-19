@@ -97,3 +97,15 @@
     }
   }
 }
+.button-box {
+  //   background-color: antiquewhite;
+  height: 140px;
+  width: $content-width;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+  button {
+    @include book-now();
+  }
+}

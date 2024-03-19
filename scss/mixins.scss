@@ -45,6 +45,18 @@
   color: $site-white;
 }
 
+@mixin book-now() {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: $site-blue;
+  border: 1px solid $site-blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: $site-white;
+}
+
 a {
   text-decoration: none;
   color: $site-white;
