@@ -1204,7 +1204,7 @@ nav .links .last-link {
 
 .button-box {
   height: 140px;
-  width: 980px;
+  max-width: 980px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -1221,6 +1221,16 @@ nav .links .last-link {
   color: #ffffff;
 }
 
+@media all and (max-width: 980px) {
+  .tours-1-container {
+    padding: 0 20px;
+  }
+  .tours-1-container .extra-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 42px;
+  }
+}
 footer {
   width: 100%;
   height: 100px;

@@ -117,12 +117,65 @@
 .button-box {
   //   background-color: antiquewhite;
   height: 140px;
-  width: $content-width;
+  max-width: $content-width;
   display: flex;
   justify-content: center;
   margin: 0 auto;
 
   button {
     @include book-now();
+  }
+}
+
+@media all and (max-width: 980px) {
+  .tours-1-container {
+    padding: 0 20px;
+    .tours-1-hero {
+    }
+    .tours-2-hero {
+    }
+    .tours-3-hero {
+    }
+    .tours-4-hero {
+    }
+    .tours-5-hero {
+    }
+    .tours-6-hero {
+    }
+    .tours-7-hero {
+    }
+    .tours-8-hero {
+    }
+    .tours-9-hero {
+    }
+
+    .text-box-1 {
+      p {
+      }
+    }
+    .text-box-2 {
+      p {
+      }
+    }
+
+    .extra-images {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 42px;
+    }
+
+    .main-title-box {
+    }
+  }
+
+  .paragraph {
+  }
+  .sub-title-box {
+    .sub-title {
+    }
+  }
+}
+.button-box {
+  button {
   }
 }
